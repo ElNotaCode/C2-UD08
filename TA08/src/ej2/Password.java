@@ -8,14 +8,14 @@ public class Password {
 	private String contraseña;
 	
 	public Password() {
-		super();
+		
 		this.logitud = 0;
 		String contraseñaGenerada = new String(generarContraseña(logitud));
 		this.contraseña = contraseñaGenerada;
 	}
 	
 	public Password(int longitud) {
-		super();
+		
 		this.logitud = longitud;
 		
 		this.contraseña = generarContraseña(longitud);

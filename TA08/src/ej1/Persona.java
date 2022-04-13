@@ -16,7 +16,6 @@ public class Persona {
 	
 	//constructor por defecto
 	public Persona() {
-		super();
 		this.nombre = "";
 		this.edad = 0;
 		this.dni = "";
@@ -26,7 +25,6 @@ public class Persona {
 	}
 	
 	public Persona(String nombre, int edad, char sexo) {
-		super();
 		this.nombre = nombre;
 		this.edad = edad;
 		this.dni = "";
@@ -36,7 +34,6 @@ public class Persona {
 	}
 	
 	public Persona(String nombre, int edad, String dni, char sexo, double peso, double altura) {
-		super();
 		this.nombre = nombre;
 		this.edad = edad;
 		this.dni = dni;
