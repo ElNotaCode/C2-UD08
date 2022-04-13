@@ -4,19 +4,17 @@ import java.util.Random;
 
 public class Password {
 	
-	private int logitud;
+	private int longitud;
 	private String contraseña;
 	
+	//por defecto
 	public Password() {
 		
-		this.logitud = 0;
-		String contraseñaGenerada = new String(generarContraseña(logitud));
-		this.contraseña = contraseñaGenerada;
 	}
 	
 	public Password(int longitud) {
 		
-		this.logitud = longitud;
+		this.longitud = longitud;
 		
 		this.contraseña = generarContraseña(longitud);
 		
@@ -26,7 +24,7 @@ public class Password {
 		return contraseña;
 	}
 	
-	public String generarContraseña(int longitud) {
+	String generarContraseña(int longitud) { //default para que lo vea el package
 		
 		int numeroAleatorio[] = new int[longitud];
 		String contraseña = new String();
@@ -40,7 +38,5 @@ public class Password {
 		return contraseña;
 		
 	}
-	
-	
-	
+
 }
