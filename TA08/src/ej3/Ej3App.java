@@ -5,6 +5,8 @@ import java.util.Scanner;
 import ej3.Electrodomestico.Color;
 import ej3.Electrodomestico.Consumo;
 
+//Autor Eloi Martorell Martin 13/04/2022
+
 public class Ej3App {
 	
 	static Scanner sc = new Scanner(System.in);

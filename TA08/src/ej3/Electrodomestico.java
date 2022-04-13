@@ -1,5 +1,7 @@
 package ej3;
 
+//Autor Eloi Martorell Martin 13/04/2022
+
 public class Electrodomestico {
 	
 	//precioBase color consumoEnergetico (A-F) peso

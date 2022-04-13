@@ -2,6 +2,8 @@ package ej2;
 
 import java.util.Random;
 
+//Autor Eloi Martorell Martin 13/04/2022
+
 public class Password {
 	
 	private int longitud;

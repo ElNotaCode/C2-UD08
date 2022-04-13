@@ -2,6 +2,8 @@ package ej2;
 
 import java.util.Scanner;
 
+//Autor Eloi Martorell Martin 13/04/2022
+
 public class Ej2App {
 
 	public static void main(String[] args) {
